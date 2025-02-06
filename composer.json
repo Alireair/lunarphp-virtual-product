@@ -20,8 +20,8 @@
     "require": {
         "php": "^8.1",
         "illuminate/contracts": "^9.0|^10.0",
-        "livewire/livewire": "^3.0",   
-        "lunarphp/lunar": "^1.0",   
+        "livewire/livewire": "^2.0",
+        "lunarphp/lunar": "^0.8",
         "phpoffice/phpspreadsheet": "^1.29",
         "spatie/laravel-data": "^3.0.0",
         "spatie/laravel-package-tools": "^1.9.2"
@@ -78,6 +78,12 @@
             "slug": "virtual-product"
         }
     },
-    "minimum-stability": "dev",  
-    "prefer-stable": true
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Alireair/lunarphp-virtual-product"
+        }
+    ]
 }
